@@ -2,6 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 import { Image } from 'astro:assets';
+import skiImage1 from 'public/ski1.jpg';
+import skiImage2 from 'public/ski2.jpg';
+import skiImage3 from 'public/ski3.jpg';
+import skiImage4 from 'public/ski4.jpg';
+import skiImage5 from 'public/ski5.jpg';
+import skiImage6 from 'public/ski6.jpg';
+import skiImage7 from 'public/ski7.jpg';
 ---
 
 <BaseLayout title="Hobbies" sideBarActiveItemID="cv">
@@ -14,11 +21,11 @@ import { Image } from 'astro:assets';
     and occasionally go skiing at somewhere BIGGER, like Mont Tremblant. Feel free to contact me if you are also interested in skiing or learning skiing.
   </div>
 
-  <img src={"public/ski1.jpg"} alt="" width="500" height="50">
-  <img src={"public/ski2.jpg"} alt="" width="500" height="50">
-  <img src={"public/ski3.jpg"} alt="" width="500" height="50">
-  <img src={"public/ski4.jpg"} alt="" width="500" height="50">
-  <img src={"public/ski5.jpg"} alt="" width="500" height="50">
-  <img src={"public/ski6.jpg"} alt="" width="500" height="50">
-  <img src={"public/ski7.jpg"} alt="" width="500" height="50">
+  <Image src={skiImage1} alt="" width="500" height="50"/>
+  <Image src={skiImage2} alt="" width="500" height="50"/>
+  <Image src={skiImage3} alt="" width="500" height="50"/>
+  <Image src={skiImage4} alt="" width="500" height="50"/>
+  <Image src={skiImage5} alt="" width="500" height="50"/>
+  <Image src={skiImage6} alt="" width="500" height="50"/>
+  <Image src={skiImage7} alt="" width="500" height="50"/>
 </BaseLayout>
